@@ -1,0 +1,9 @@
+export type Weather = {date:string;temp_min:number|null;temp_max:number|null;description:string;precipitation_probability:number|null;source_url:string;status:string};
+export type Source = {id:string;platform:'xiaohongshu'|'douyin'|'official'|'web'|'sample';title:string;url:string;excerpt:string;content_status:'full'|'snippet'|'sample'|'unavailable';published_at?:string};
+export type Activity = {id:string;time:string;end_time:string;title:string;category:'attraction'|'food'|'transport'|'stay';description:string;duration_minutes:number;cost:number;lat:number|null;lng:number|null;source_ids:string[];verified:boolean;indoor:boolean;transport_note:string};
+export type Day = {date:string;title:string;description:string;weather?:Weather;activities:Activity[]};
+export type Plan = {id:string;title:string;destination:string;origin:string;start_date:string;end_date:string;travelers:number;budget:number;mode:'demo'|'live'|'limited';summary:string;days:Day[];sources:Source[];tips:string[];warnings:string[];cost_breakdown:{label:string;amount:number}[];trace:{step:string;status:string;detail:string}[];provider_status:Record<string,unknown>};
+export type RequestForm = {destination:string;origin:string;start_date:string;end_date:string;travelers:number;budget:number;pace:'relaxed'|'balanced'|'full';interests:string[];must_visit:string;notes:string;mode:'demo'|'live'};
+export type Provider = {id:string;name:string;ready:boolean;message:string};
+export const platformLabel:Record<string,string> = {xiaohongshu:'小红书',douyin:'抖音',official:'官方资料',web:'公开网页',sample:'示例资料'};
+export const statusLabel:Record<string,string> = {full:'已获取正文',snippet:'搜索摘要',sample:'示例内容',unavailable:'内容未获取'};
