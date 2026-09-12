@@ -1,0 +1,128 @@
+{
+  "coordinate_system": "WGS84",
+  "retrieved_at": "2026-09-12",
+  "attribution": "OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "locations": {
+    "断桥残雪": {
+      "lat": 30.2609009,
+      "lng": 120.1470304,
+      "source_url": "https://www.openstreetmap.org/way/28538289",
+      "note": "桥梁步行路段代表点；不是出入口或导航路网核验。"
+    },
+    "孤山与白堤": {
+      "lat": 30.2541939,
+      "lng": 120.1377806,
+      "source_url": "https://www.openstreetmap.org/node/9035381272",
+      "note": "选取孤山岛屿代表点；行程名称同时包含白堤，坐标不代表整段步行路线或入口。"
+    },
+    "西泠印社外街": {
+      "lat": 30.252792,
+      "lng": 120.1354984,
+      "source_url": "https://www.openstreetmap.org/node/775019817",
+      "note": "选取西泠印社景点 POI，未查到名为“外街”的独立道路对象；建议标题标注为西泠印社附近。"
+    },
+    "北山街": {
+      "lat": 30.2540507,
+      "lng": 120.1300602,
+      "source_url": "https://www.openstreetmap.org/way/504565894",
+      "note": "北山街西段道路代表点；不是整条街的唯一中心或入口。"
+    },
+    "浙江省博物馆之江馆区": {
+      "lat": 30.1620244,
+      "lng": 120.0968744,
+      "source_url": "https://www.openstreetmap.org/way/1393054074",
+      "note": "精确匹配浙江省博物馆(之江馆)，非孤山馆；馆舍面状对象代表点，不表示入口。"
+    },
+    "中国丝绸博物馆": {
+      "lat": 30.225126,
+      "lng": 120.1465083,
+      "source_url": "https://www.openstreetmap.org/relation/8281187",
+      "note": "馆区面状对象代表点；不表示入口。"
+    },
+    "南宋御街": {
+      "lat": 30.2438959,
+      "lng": 120.16619,
+      "source_url": "https://www.openstreetmap.org/way/451701545",
+      "note": "选取中山中路清河坊步行段代表点；杭州政协资料证明南宋御街与中山路基本重叠，非遗址陈列馆坐标。"
+    },
+    "河坊街": {
+      "lat": 30.2425999,
+      "lng": 120.1676862,
+      "source_url": "https://www.openstreetmap.org/way/1502840025",
+      "note": "选取清河坊社区段道路代表点；不是整条街的唯一中心。"
+    },
+    "龙井村": {
+      "lat": 30.2218656,
+      "lng": 120.098065,
+      "source_url": "https://www.openstreetmap.org/node/4472025928",
+      "note": "村落代表点；不表示停车、入口或步道起点。"
+    },
+    "中国茶叶博物馆双峰馆区": {
+      "lat": 30.2347538,
+      "lng": 120.1155532,
+      "source_url": "https://www.openstreetmap.org/way/161455677",
+      "note": "精确匹配双峰馆区，非龙井馆区；馆区面状对象代表点。"
+    },
+    "茅家埠": {
+      "lat": 30.2408569,
+      "lng": 120.1181796,
+      "source_url": "https://www.openstreetmap.org/node/9025915394",
+      "note": "选取村落代表点，未使用同名水湾中心。"
+    },
+    "浴鹄湾": {
+      "lat": 30.2315603,
+      "lng": 120.1324218,
+      "source_url": "https://www.openstreetmap.org/node/5492634555",
+      "note": "仅选取同名杨公堤公交站作为到访参考点；景区本体为水面，不把湖心当作行走目标。UI 应注明“浴鹄湾公交站附近”。"
+    },
+    "拱宸桥": {
+      "lat": 30.3204665,
+      "lng": 120.1349469,
+      "source_url": "https://www.openstreetmap.org/way/567466767",
+      "note": "桥梁台階路段代表点；没有选用同名街区或公交站。"
+    },
+    "桥西历史街区": {
+      "lat": 30.3185583,
+      "lng": 120.1338779,
+      "source_url": "https://www.openstreetmap.org/way/445920869",
+      "note": "选取街区内桥西直街步行段代表点；拱墅区官方文旅资料确认桥西直街属于桥西历史街区。"
+    },
+    "中国刀剪剑博物馆": {
+      "lat": 30.3185471,
+      "lng": 120.133527,
+      "source_url": "https://www.openstreetmap.org/way/457632686",
+      "note": "馆舍面状对象代表点；不表示入口。"
+    },
+    "小河直街": {
+      "lat": 30.3101367,
+      "lng": 120.1303856,
+      "source_url": "https://www.openstreetmap.org/way/234289068",
+      "note": "步行街路段代表点；不表示整条街唯一中心或入口。"
+    },
+    "西溪国家湿地公园": {
+      "lat": 30.2673045,
+      "lng": 120.0632592,
+      "source_url": "https://www.openstreetmap.org/way/783223294",
+      "note": "大型湿地保护区代表点，仅用于区域展示；不是入园门、可行走停靠点，不应用于导航终点。"
+    },
+    "西溪河渚街": {
+      "lat": 30.2750793,
+      "lng": 120.0669575,
+      "source_url": "https://www.openstreetmap.org/way/445674500",
+      "note": "河渚街道路代表点；不表示停车点或景区入口。"
+    },
+    "西溪中国湿地博物馆": {
+      "lat": 30.2664423,
+      "lng": 120.0826183,
+      "source_url": "https://www.openstreetmap.org/way/445674471",
+      "note": "馆舍面状对象代表点；不表示入口。"
+    },
+    "西溪东门周边": {
+      "lat": 30.2758363,
+      "lng": 120.0847608,
+      "source_url": "https://www.openstreetmap.org/node/6363918320",
+      "note": "仅为紫金港路上的“西溪湿地东门”公交站参考点，非景区入口坐标。UI 应注明公交站附近。"
+    }
+  }
+}
